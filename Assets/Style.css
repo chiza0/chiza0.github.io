@@ -8,11 +8,12 @@ body {
 }
 
 .container {
-    width: 80%; /* Ancho relativo al contenedor */
-    height: 100vh; /* Alto relativo al viewport */
-    padding: 20px; /* Padding en píxeles */
-    border: 1cm solid black; /* Borde en centímetros */
+    width: 1000px; /* Ancho relativo al contenedor */
+    height: 120vh; /* Alto relativo al viewport */
+    padding: -10px; /* Padding en píxeles */
+    border: 0.1cm solid black; /* Borde en centímetros */
     margin: 2in auto; /* Margen en pulgadas, centrado horizontalmente */
+    text-align: center;
 }
 
 .box {
@@ -21,3 +22,5 @@ body {
     font-size: 12pt; /* Tamaño de letra en puntos */
     border: 2mm dashed rgb(17, 17, 24); /* Borde en milímetros */
 }
+
+
