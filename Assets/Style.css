@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-size: 1rem; /* Tamaño de letra relativo al documento */
+            background: #3F5EFB;
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 .container {
@@ -18,5 +19,5 @@ body {
     width: 10em; /* Ancho relativo al tamaño de letra del elemento */
     height: 5em; /* Alto relativo al tamaño de letra del elemento */
     font-size: 12pt; /* Tamaño de letra en puntos */
-    border: 2mm dashed blue; /* Borde en milímetros */
+    border: 2mm dashed rgb(17, 17, 24); /* Borde en milímetros */
 }
