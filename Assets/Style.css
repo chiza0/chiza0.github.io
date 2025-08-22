@@ -20,5 +20,8 @@ body {
     border: 2mm dashed rgb(17, 17, 24); /* Borde en milímetros */
 }
 
-custom
+.tamano_personalizado{
+    font-size: 30px; /* Cambia el tamaño a tu gusto */
+}
+
 
