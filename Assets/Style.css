@@ -8,12 +8,9 @@ body {
 }
 
 .container {
-    width: 1000px; /* Ancho relativo al contenedor */
-    height: 120vh; /* Alto relativo al viewport */
-    padding: -10px; /* Padding en píxeles */
-    border: 0.1cm solid black; /* Borde en centímetros */
-    margin: 2in auto; /* Margen en pulgadas, centrado horizontalmente */
-    text-align: center;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 20px; /* Espacio interno */
 }
 
 .box {

@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
-    <title>CHIZA</title>
-     <link rel="stylesheet" href="Assets/Style.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>IGN</title>
+    <link rel="stylesheet" href="Assets/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 
+<!-- Barra de navegacion-->
 <body>
-    <div class="Navbar">
-        
-        
-    <div class="container">
-        <h1>CHIZA</h1>
-        <p>Esta es una página de prueba para el curso de Full Stack Developer.</p>
-        <p>¡Hola, mundo!</p>
-    <img src="Assets/Orange._Cat.jpg" alt="CHIZA" style="width: 150px; height: auto;">
+    <nav class="Navbar -expand-lg Navbar-dark bg-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#top">IGN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#juegos populares">Juegos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curiosidades">#Curiosidades</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>      
 
-    <h1>Encabezado 1</h1>
-    <p>Encabezado 2</p>
+<header class="text-center py-5">
     <div>
-        <ul>
-            elemento 1
-            elemento 2
-        </ul>
+        <h1 class="text-info">Bienvenido a IGN</h1>
+        <p class="lead py-3">Tu fuente de noticias y reseñas de videojuegos</p>
     </div>
+</header>
 
-    <div class="imagen1">
-        <img src="Assets/giphy-downsized.gif" class="imagen1" alt="Giphy" style="width: 156px; height: auto;">
-    </div>
+<!-- Seccion de juegos populares -->
 
-    
-        <li>elemento 1</li>
-        <li>elemento 2</li>
-    
-
-    <div>
-        <img src="Assets/momo.gif" class="imagen1" alt="Giphy" style="width: 156px; height: auto;">
-
-    </div>
-
-    
+<div class="container">
+    <section id="juegos populares" class="mb-5">
+        <h2 class="text-warning border-bottom pb-2">Juegos Populares </h2>
+        <div class="row text-center">
+            <div class="col md-4">
+                <img src ="Assets/Orange._Cat.jpg" alt="Orange Cat" class="img-fluid rounded mb-3" width="300" height="auto">
+                <p class="fw-bold">Orange Cat</p>
+            </div>
+            <div class="col md-4">
+                <img src="Assets/cat-cat-blink.gif" alt="Blinking Cat" class="img-fluid rounded mb-3" width="300" height="auto">
+                <p class="fw-bold">Blinking Cat</p>
+            </div>
+            <div class="col md-4">
+                <img src="Assets/200.gif" alt="Stare Cat" class="img-fluid rounded mb-3" width="300" height="auto">           
+                <p class="fw-bold">Stare Cat</p>
+            </div>
+        </div>
+    </section>
 </div>
 
+
+
+ 
 </body>
 
 </html>
