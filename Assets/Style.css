@@ -7,6 +7,12 @@ body {
             background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
+.momo{
+    color: #343a40; /* Color de texto oscuro */
+    padding: 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
 .container {
     max-width: 1200px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrado horizontal */
@@ -23,5 +29,18 @@ body {
 .tamano_personalizado{
     font-size: 30px; /* Cambia el tamaño a tu gusto */
 }
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
-
+.carousel-container {
+  max-width: 800px;   /* Cambia el ancho según lo que necesites */
+  margin: 0 auto;
+}
