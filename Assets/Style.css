@@ -41,7 +41,23 @@ body {
 }
 
 .carousel-container {
-  max-width: 800px;   /* Cambia el ancho según lo que necesites */
-  margin: 0 auto;
+  max-width: 700px;   /* Cambia el ancho según lo que necesites */
+  margin:  auto;
 }
 
+
+.carousel-inner img {
+    height: 600px;      /* Cambia la altura según lo que necesites */
+    object-fit: contain;  /* Recorta la imagen si es necesario */
+    box-shadow : #333;      /* Opcional: color de fondo para imágenes más pequeñas */
+}
+
+.card-img-top {
+    width: 1000%;
+    height: 200px;         /* Ajusta la altura según lo que necesites */
+    object-fit: contain;     /* Recorta la imagen si es necesario, usa 'contain' si no quieres recorte */;
+}
+
+.card-color {
+    background-color: #ffb347 !important; /* Cambia el color por el que prefieras */
+}
